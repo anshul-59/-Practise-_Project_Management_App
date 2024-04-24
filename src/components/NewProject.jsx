@@ -46,7 +46,7 @@ export default function NewProject({ onAdd, onCancel }) {
         <menu className="flex items-center justify-end gap-4 my-4">
           <li>
             <button
-              className="text-stone-800 hover:text-stone-950"
+              className="text-stone-800 hover:bg-stone-500 rounded-md px-6 hover:text-stone-950"
               onClick={onCancel}
             >
               Cancel
